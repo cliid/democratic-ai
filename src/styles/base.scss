@@ -1,0 +1,79 @@
+@tailwind base;
+
+$navbar-height: 4.5rem;
+
+@layer base {
+  h1 {
+    @apply tw-text-2xl;
+  }
+  h2 {
+    @apply tw-text-xl;
+  }
+  h3 {
+    @apply tw-text-lg;
+  }
+  a {
+    @apply tw-text-blue-600 tw-underline;
+  }
+  pre {
+    @apply tw-p-0 tw-border;
+  }
+
+  code {
+    font-family: 'Computer Modern Typewriter', SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+      Courier, monospace;
+  }
+
+  pre code {
+    @apply tw-font-normal;
+
+    &::before,
+    &::after {
+      content: '';
+    }
+  }
+
+  a {
+    @apply tw-no-underline hover:tw-text-black dark:hover:tw-text-white;
+  }
+
+  img {
+    /* Don't apply styles to next/image */
+    @apply tw-m-0;
+  }
+
+  p {
+    @apply tw-font-normal tw-text-base sm:tw-text-[1.05rem] tw-mb-4;
+
+    line-height: 1.625rem;
+  }
+
+  ::selection {
+    @apply tw-bg-[#e5e5e6] dark:tw-bg-[#3e4451];
+  }
+
+  * {
+    background-color: transparent;
+    border-color: inherit;
+    box-sizing: border-box;
+    color: inherit;
+    transition-duration: 50ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @apply tw-scroll-mt-[5.1rem] sm:tw-scroll-mt-[5.5rem];
+  }
+
+  html {
+    font-size: 16px;
+    height: 100%;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Computer Modern Sans', 'Computer Modern Serif', -apple-system, BlinkMacSystemFont,
+      system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+      'Malgun Gothic', sans-serif;
+    @apply tw-bg-bg dark:tw-bg-dark-bg tw-text-text dark:tw-text-dark-text tw-border-border dark:tw-border-dark-border;
+  }
+}

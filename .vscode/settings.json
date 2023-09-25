@@ -1,0 +1,30 @@
+{
+  "workbench.colorTheme": "Material Theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.emmetCompletions": true,
+  // Run ESLint each time you save a file
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[javascript,javascriptreact,typescript,typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.packageManager": "pnpm",
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "files.exclude": {
+    "node_modules": true
+  },
+  "git.ignoreLimitWarning": true,
+  "headwind.runOnSave": true,
+  "headwind.removeDuplicates": true,
+  "headwind.customTailwindPrefix": "tw-",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

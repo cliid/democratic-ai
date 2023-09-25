@@ -1,0 +1,27 @@
+{
+  "title": "Ross Mathematics Program",
+  "publishedAt": "2023-4-27",
+  "summary": "Why Ross?",
+  "body": {
+    "raw": "\n1. Recommendation Letters (hmm)\n2. Essays (well, was fun at least)\n3. Problemset (created a quite hard problem and solved it, so prolly #3 carried me.)",
+    "html": "<ol>\n<li>Recommendation Letters (hmm)</li>\n<li>Essays (well, was fun at least)</li>\n<li>Problemset (created a quite hard problem and solved it, so prolly #3 carried me.)</li>\n</ol>"
+  },
+  "_id": "blog/ross-mathematics-program.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/ross-mathematics-program.mdx",
+    "sourceFileName": "ross-mathematics-program.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/ross-mathematics-program"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.09454545454545454,
+    "time": 5673,
+    "words": 26
+  },
+  "wordCount": 27,
+  "tweetIds": [],
+  "slug": "ross-mathematics-program"
+}

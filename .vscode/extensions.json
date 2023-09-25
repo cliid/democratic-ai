@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "pkief.material-icon-theme",
+    "equinusocio.vsc-material-theme",
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+    "formulahendry.auto-complete-tag"
+  ]
+}

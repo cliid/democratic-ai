@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["prettier", "next"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "singleQuote": true,
+        "printWidth": 100,
+        "tabWidth": 2,
+        "useTabs": false,
+        "trailingComma": "none",
+        "bracketSpacing": true
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off"
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "plugins": ["simple-import-sort", "unused-imports", "prettier"],
+      "rules": {
+        "no-unused-vars": 0,
+        "unused-imports/no-unused-imports": "error",
+        "simple-import-sort/exports": "error",
+        "simple-import-sort/imports": "error",
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": 0,
+        "react/no-unescaped-entities": 0
+      }
+    }
+  ]
+}

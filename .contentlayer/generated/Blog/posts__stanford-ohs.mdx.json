@@ -1,0 +1,27 @@
+{
+  "title": "Stanford Online High School",
+  "publishedAt": "2023-3-10",
+  "summary": "I didn't believe 'till the last moment that I would get in!",
+  "body": {
+    "raw": "\n1. Recommendation Letters (hmm)\n2. Essays (well, was fun at least, but duh Stanford, lots of essays)\n3. Video essay (uh not bad?)",
+    "html": "<ol>\n<li>Recommendation Letters (hmm)</li>\n<li>Essays (well, was fun at least, but duh Stanford, lots of essays)</li>\n<li>Video essay (uh not bad?)</li>\n</ol>"
+  },
+  "_id": "posts/stanford-ohs.mdx",
+  "_raw": {
+    "sourceFilePath": "posts/stanford-ohs.mdx",
+    "sourceFileName": "stanford-ohs.mdx",
+    "sourceFileDir": "posts",
+    "contentType": "mdx",
+    "flattenedPath": "posts/stanford-ohs"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.08363636363636363,
+    "time": 5018,
+    "words": 23
+  },
+  "wordCount": 24,
+  "tweetIds": [],
+  "slug": "stanford-ohs"
+}

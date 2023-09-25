@@ -1,0 +1,27 @@
+{
+  "title": "The Ultimate Guide to Linux Desktop Customization",
+  "publishedAt": "2022-02-22",
+  "summary": "Which distro to use? What desktop environment? What kind of window manager? OS hardening?",
+  "body": {
+    "raw": "\n# Choosing Distros\n\nThere are an infinite number of distros that you can choose from, but you don't need to try all of 'em.\n\nA couple of famous distros are: Arch, Debian, Ubuntu, and RHEL.\nThere are also Arch-like, Debian-like, Ubuntu-like distros as well, and I'll firmly introduce them as well.\n\n## For Tinkerers\n\nIf you want to try tinkering with your own system, I suggest EndeavourOS.\n\nWhy EndeavourOS?\n\n- Arch-like distro. Highly customizable.\n- It directly uses Arch's main repo, which means you get the latest fixes and features.\n- You can install it via a graphical interface, which is quite cool.\n- The community is very helpful, and has lots of advanced users.\n- Free to choose between Xfce, Budgie, Cinnamon, Deepin, i3, KDE Plasma 5, LXQt, Mate, or GNOME.\n\nThere are other Arch-like distros as well.\nArtix, Arco, Manjaro, Garuda, and much more.\nTry them if you want to, but sticking with Endeavour won't be a bad experience.\n\n# Choosing a DE\n\nI personally don't use a DE. It's bloated. I rather use the i3 window manager, since it's fast and simple.",
+    "html": "<h1>Choosing Distros</h1>\n<p>There are an infinite number of distros that you can choose from, but you don't need to try all of 'em.</p>\n<p>A couple of famous distros are: Arch, Debian, Ubuntu, and RHEL.\nThere are also Arch-like, Debian-like, Ubuntu-like distros as well, and I'll firmly introduce them as well.</p>\n<h2>For Tinkerers</h2>\n<p>If you want to try tinkering with your own system, I suggest EndeavourOS.</p>\n<p>Why EndeavourOS?</p>\n<ul>\n<li>Arch-like distro. Highly customizable.</li>\n<li>It directly uses Arch's main repo, which means you get the latest fixes and features.</li>\n<li>You can install it via a graphical interface, which is quite cool.</li>\n<li>The community is very helpful, and has lots of advanced users.</li>\n<li>Free to choose between Xfce, Budgie, Cinnamon, Deepin, i3, KDE Plasma 5, LXQt, Mate, or GNOME.</li>\n</ul>\n<p>There are other Arch-like distros as well.\nArtix, Arco, Manjaro, Garuda, and much more.\nTry them if you want to, but sticking with Endeavour won't be a bad experience.</p>\n<h1>Choosing a DE</h1>\n<p>I personally don't use a DE. It's bloated. I rather use the i3 window manager, since it's fast and simple.</p>"
+  },
+  "_id": "blog/the-ultimate-guide-to-linux-desktop-customizing.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/the-ultimate-guide-to-linux-desktop-customizing.mdx",
+    "sourceFileName": "the-ultimate-guide-to-linux-desktop-customizing.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/the-ultimate-guide-to-linux-desktop-customizing"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.6727272727272727,
+    "time": 40364,
+    "words": 185
+  },
+  "wordCount": 186,
+  "tweetIds": [],
+  "slug": "the-ultimate-guide-to-linux-desktop-customizing"
+}
